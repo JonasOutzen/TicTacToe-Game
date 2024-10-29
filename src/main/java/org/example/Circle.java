@@ -11,7 +11,7 @@ public class Circle {
     }
 
     public void getGeometryDonut() {
-        Geometry3D circle1 = csg.torus3D(2,13,100,100,false);
+        Geometry3D circle1 = csg.torus3D(4,26,100,100,false);
         csg.view(circle1,2);
     }
 }
