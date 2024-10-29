@@ -5,8 +5,23 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>TicTacToe</artifactId>
+    <artifactId>JavaCSG</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </releases>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
@@ -22,21 +37,4 @@
             <version>v0.3.0</version>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </releases>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io/</url>
-        </repository>
-    </repositories>
-
-
 </project>
