@@ -5,13 +5,14 @@ import org.abstractica.javacsg.JavaCSG;
 
 public class Board {
     JavaCSG csg;
+    private int xSize = 100;
 
     public Board(JavaCSG csg) {
         this.csg = csg;
     }
 
     public void getBoard() {
-        Geometry3D box1 = csg.box3D(100, 100, 5, false);
+        Geometry3D box1 = csg.box3D(xSize, 100, 5, false);
         Geometry3D Line1x = csg.box3D(2, 100, 5, false);
         Geometry3D Line2x = csg.box3D(2, 100, 5, false);
         Geometry3D Line1y = csg.box3D(100, 2, 5, false);
